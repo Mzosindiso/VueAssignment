@@ -1,0 +1,47 @@
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: aliceblue;
+}
+.wrapper{
+    background-color: darkgrey;
+    border-radius: 10px;
+    width: 450px;
+}
+.wrapper .head{
+    padding: 25px 30px;
+    align-items: center;
+    text-align: center;
+}
+.head{
+    background-color: #9BD7D5;
+}
+.head input[type = "text"]{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid;
+    outline: none;
+    font-weight: 900;
+    font: 16px;
+    border-radius: 5px;
+}
+.wrapper .sec .info{
+    align-items: center;
+    text-align: center;
+    background-color: #FFF5C3;
+}
+.info{
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.info img{
+    height: 200px;
+}
